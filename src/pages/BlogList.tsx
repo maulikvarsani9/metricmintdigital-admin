@@ -7,7 +7,6 @@ import Button from '@/components/ui/button';
 import Loader from '@/components/shared/Loader';
 import Pagination from '@/components/shared/Pagination';
 import DeleteConfirmationDialog from '@/components/shared/DeleteConfirmationDialog';
-import type { Blog } from '@/types/api';
 
 const BlogList: React.FC = () => {
     const navigate = useNavigate();
